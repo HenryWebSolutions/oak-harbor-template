@@ -3,5 +3,12 @@
   "email": "Ryan@HenryWebSolutions.com",
   "phone": "952-222-7990",
   "phoneFormatted": "(952) 222-7990",
+  "address": {
+    "lineOne": "",
+    "city": "Eden Prairie",
+    "county": "MN",
+    "postcode": "55344",
+    "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+  },
   "domain": "www.henrywebsolutions.com"
 }
