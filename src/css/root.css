@@ -7,7 +7,7 @@
     --primary: #FFBA19;
     --primaryShade: #ffd675;
     --primaryDark: #805d0d;
-    --bodyTextColor: #4E4B66;
+    --bodyTextColor: #EFF2F1;
     --bodyTextColorWhite: #FAFBFC;
     --headerColor: #1a1a1a;
     /* 13px - 16px */
@@ -106,12 +106,12 @@
     position: relative;
     z-index: 1;
     background-color: var(--primary);
-    color: #000;
+    color: #040404;
     transition: color .3s;
     transition-delay: .1s;
   }
   .button-solid:hover {
-    color: #fff;
+    color: #EFF2F1;
   }
   .button-solid:hover:before {
     width: 100%;
@@ -125,7 +125,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #000;
+    background-color: #040404;
     width: 0;
     transition: width .3s;
   }
@@ -169,7 +169,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #EFF2F1;
     width: 100%;
     height: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -210,7 +210,7 @@
   #navigation .hamburger-menu span {
     height: 2px;
     width: 1.875rem;
-    background-color: #000;
+    background-color: #040404;
     display: block;
     position: absolute;
     left: 50%;
@@ -223,7 +223,7 @@
     display: block;
     height: 2px;
     width: 80%;
-    background: #000;
+    background: #040404;
     opacity: 1;
     top: -6px;
     left: 0;
@@ -235,7 +235,7 @@
     display: block;
     height: 2px;
     width: 80%;
-    background: #000;
+    background: #040404;
     opacity: 1;
     top: 6px;
     left: 0;
@@ -265,7 +265,7 @@
     z-index: -1;
     overflow: hidden;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color: #fff;
+    background-color: #EFF2F1;
     top: 3.7rem;
     padding-top: 0;
     height: 0;
@@ -308,7 +308,7 @@
   #navigation #navbar-menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: #040404;
     font-size: 1.1875rem;
     text-align: center;
     display: inline-block;
@@ -342,7 +342,7 @@
 @media only screen and (min-width: 64em) {
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 0.375em rgba(0, 0, 0, 0.3);
-    background-color: #fff;
+    background-color: #EFF2F1;
   }
   ::-webkit-scrollbar-track-piece {
     background-color: #f0f0f0;
@@ -369,7 +369,7 @@
     color: #1a1a1a;
   }
   body.scroll #dark-mode-toggle svg path {
-    fill: #000;
+    fill: #040404;
   }
   body.dark-mode #navigation .background-color-div {
     height: 100%;
@@ -391,7 +391,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #EFF2F1;
     height: 0;
     transition: height .3s;
   }
@@ -429,7 +429,7 @@
     text-transform: uppercase;
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #EFF2F1;
     transition: color .3s;
   }
   #navigation #navbar-menu ul li a:before {
@@ -477,11 +477,11 @@
     background-color: var(--dark);
   }
   body.dark-mode #navigation .hamburger-menu span {
-    background-color: #fff;
+    background-color: #EFF2F1;
   }
   body.dark-mode #navigation .hamburger-menu span:before,
   body.dark-mode #navigation .hamburger-menu span:after {
-    background-color: #fff;
+    background-color: #EFF2F1;
   }
   body.dark-mode #navigation .logo .light {
     display: block;
@@ -493,7 +493,7 @@
     background-color: var(--medium);
   }
   body.dark-mode #navigation #navbar-menu ul li a {
-    color: #fff;
+    color: #EFF2F1;
   }
   body.dark-mode #navigation #navbar-menu ul li a:before {
     background: var(--accent);
@@ -514,7 +514,7 @@
     display: none !important;
   }
   body.dark-mode #navigation #navbar-menu ul li a {
-    color: #fff;
+    color: #EFF2F1;
   }
   body.dark-mode #navigation #navbar-menu ul li a:before {
     background: var(--accent);
@@ -544,7 +544,7 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: #040404;
     opacity: .7;
     top: 0;
     left: 0;
@@ -567,7 +567,7 @@
     object-fit: cover;
   }
   #int-hero h1 {
-    color: #fff;
+    color: #EFF2F1;
     font-size: 2.13333333rem;
     text-align: center;
     margin: 0 auto;
@@ -578,7 +578,7 @@
     margin-bottom: 1.875rem;
   }
   #int-hero p {
-    color: #fff;
+    color: #EFF2F1;
     text-align: center;
     max-width: 25rem;
     margin: auto;
@@ -638,7 +638,7 @@
   #footer .left-section p {
     font-size: 0.875rem;
     line-height: 1.92857143;
-    color: #fff;
+    color: #EFF2F1;
     opacity: .9;
     text-align: center;
     width: 100%;
@@ -678,13 +678,13 @@
   #footer .right-section .lists ul li {
     list-style: none;
     margin-bottom: 0.75rem;
-    color: #fff;
+    color: #EFF2F1;
     font-size: 1.125rem;
     opacity: .9;
   }
   #footer .right-section .lists ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #EFF2F1;
     line-height: 1.16666667em;
     transition: color .3s;
   }
@@ -692,7 +692,7 @@
     color: var(--primary);
   }
   #footer .right-section .lists ul h2 {
-    color: #fff;
+    color: #EFF2F1;
     font-size: 1.125rem;
     line-height: 1.16666667em;
     margin-bottom: 2.3125rem;
@@ -722,7 +722,7 @@
     width: 15.625rem;
   }
   #footer .credit {
-    color: #fff;
+    color: #EFF2F1;
     width: 96%;
     margin: auto;
     text-align: center;
