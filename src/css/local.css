@@ -49,10 +49,10 @@
   #sbs .cs-picture2 {
     width: 25.875em;
     height: 25em;
-    background-color: #fff;
+    background-color: #EFF2F1;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
     /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
+    border: clamp(0.375em, 1.5vw, 0.75em) solid #EFF2F1;
     right: 0;
     bottom: 0;
   }
@@ -234,10 +234,10 @@
   #sbs-r .cs-picture2 {
     width: 25.875em;
     height: 25em;
-    background-color: #fff;
+    background-color: #EFF2F1;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
     /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
+    border: clamp(0.375em, 1.5vw, 0.75em) solid #EFF2F1;
     left: 0;
     bottom: 0;
   }
@@ -545,7 +545,7 @@
     padding-bottom: clamp(2rem, 5.4vw, 2.5rem);
     box-shadow: 0px 20px 39px 0px rgba(0, 0, 0, 0.05);
     border-radius: 0.25rem;
-    background: #fff;
+    background: #EFF2F1;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -634,7 +634,7 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: #040404;
     opacity: .7;
     top: 0;
     left: 0;
@@ -663,13 +663,13 @@
     font-weight: 900;
     font-size: min(9vw, 3rem);
     line-height: 1.20833333;
-    color: #fff;
+    color: #EFF2F1;
     position: relative;
     margin-bottom: 2.25rem;
     text-align: center;
   }
   #cta p {
-    color: #fff;
+    color: #EFF2F1;
     text-align: center;
     opacity: 1;
     margin: auto;
@@ -724,7 +724,7 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: #040404;
     opacity: .7;
     top: 0;
     left: 0;
